@@ -1,0 +1,8 @@
+Populate the list exceptions with ten (10) different exceptions.
+The first exception is already implemented in the initExceptions method.
+
+Wymagania:
+•	The list exceptions must contain 10 elements.
+•	All items in the list exceptions must be exceptions (descendants of the Throwable class).
+•	All items in the list exceptions must be unique.
+•	The initExceptions method must be static.
