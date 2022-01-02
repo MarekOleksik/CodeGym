@@ -1,0 +1,14 @@
+1. Figure out what the program does.
+2. Arrange the calls to join() so that each cat does the following:
+2.1. First, the cat gives birth to kittens.
+2.2. Then all the kittens climb out of the basket in random order.
+2.3. Finally, the cat brings them back into the basket.
+2.4. These events for one cat may be interspersed with events for another cat.
+2.5. Add kitten nap-time (sleep 200 ms) to investigateWorld.
+
+Wymagania:
+•	The join method should be called on each kitten (Kitten object).
+•	The investigateWorld method should let the kitten sleep for 200 ms. Use Thread.sleep(200).
+•	The program should create two cats and four kittens.
+•	Don't change the methods that are responsible for screen output.
+•	The program's output must indicate that the task conditions have been satisfied.
